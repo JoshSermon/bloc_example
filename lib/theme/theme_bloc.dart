@@ -5,11 +5,7 @@ import 'theme_event.dart';
 class ThemeBloc extends Bloc<ThemeEvent, ThemeMode> {
   ThemeBloc() : super(ThemeMode.light) {
     on<ThemeToggled>((event, emit) {
-      emit(
-        state == ThemeMode.light
-            ? ThemeMode.dark
-            : ThemeMode.light,
-      );
+      emit(state == ThemeMode.light ? ThemeMode.dark : ThemeMode.light);
     });
   }
 }
