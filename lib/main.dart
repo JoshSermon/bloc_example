@@ -4,12 +4,7 @@ import 'theme/theme_bloc.dart';
 import 'theme/theme_event.dart';
 
 void main() {
-  runApp(
-    BlocProvider(
-      create: (_) => ThemeBloc(),
-      child: const MyApp(),
-    ),
-  );
+  runApp(BlocProvider(create: (_) => ThemeBloc(), child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -48,3 +43,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+// This is the main entry point of the application, setting up the ThemeBloc and providing it to the widget tree.

@@ -9,3 +9,5 @@ class ThemeBloc extends Bloc<ThemeEvent, ThemeMode> {
     });
   }
 }
+
+// This file contains the BLoC implementation for managing theme state.
