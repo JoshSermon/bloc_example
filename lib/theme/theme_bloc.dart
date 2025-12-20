@@ -11,3 +11,5 @@ class ThemeBloc extends Bloc<ThemeEvent, ThemeMode> {
 }
 
 // This file contains the BLoC implementation for managing theme state.
+// The `ThemeBloc` class extends `Bloc` and manages the theme state based on the `ThemeMode` enum.
+// The `on` method is used to define the event handling logic for the `ThemeToggled` event.
