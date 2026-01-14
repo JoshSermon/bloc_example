@@ -13,6 +13,3 @@ class ThemeBloc extends Bloc<ThemeEvent, ThemeMode> {
 // This file contains the BLoC implementation for managing theme state.
 // The `ThemeBloc` class extends `Bloc` and manages the theme state based on the `ThemeMode` enum.
 // The `on` method is used to define the event handling logic for the `ThemeToggled` event.
-// When the `ThemeToggled` event is dispatched, the current theme state is toggled between `ThemeMode.light` and `ThemeMode.dark`.
-// The initial state of the theme is set to `ThemeMode.light`.
-// The `theme_event.dart` file should define the `ThemeEvent` abstract class and the `ThemeToggled` event class.
