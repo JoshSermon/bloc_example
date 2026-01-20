@@ -15,3 +15,5 @@ class ThemeBloc extends Bloc<ThemeEvent, ThemeMode> {
 // The `on` method is used to define the event handling logic for the `ThemeToggled` event.
 // When a `ThemeToggled` event is received, the bloc toggles the theme between light and dark modes.
 // The initial state of the theme is set to `ThemeMode.light`.
+// The `ThemeEvent` class is imported
+// from the `theme_event.dart` file, which defines the events related to theme management.
